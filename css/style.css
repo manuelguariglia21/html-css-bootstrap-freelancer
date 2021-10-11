@@ -1,0 +1,23 @@
+header{
+  height: 90px;
+  color: white;
+}
+
+.green_bg{
+  background-color: #1abc9c;
+  min-height: 500px; /* da togliere */
+}
+
+.memory_card_box{
+  min-height: 250px; /* da togliere */
+  color: orange;
+  font-weight: bolder;
+}
+
+.blue_bg{
+  background-color: #2c3e50;
+}
+
+.white_bg{
+  background-color: white;
+}
