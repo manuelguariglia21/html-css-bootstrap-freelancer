@@ -1,6 +1,7 @@
 header, footer{
   height: 90px;
   color: white;
+  z-index: 900;
 }
 /* btn */
 .mg-btn{
