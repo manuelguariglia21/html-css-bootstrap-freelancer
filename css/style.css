@@ -5,7 +5,6 @@ header, footer{
 
 .green_bg{
   background-color: #1abc9c;
-  min-height: 500px; /* da togliere */
 }
 
 .memory_card_box{
@@ -26,4 +25,49 @@ header, footer{
 .white_bg{
   min-height: 250px; /* da togliere */
   background-color: white;
+}
+
+.logo{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.mg-jumbotrone{
+  margin-top: 90px;
+}
+
+.mg-inner-jumbo{
+  width: 800px;
+  max-width: 80%;
+  border: 2px solid black;
+  margin: 0 auto;
+  height: 300px
+}
+
+.memory_card_box{
+  background-color: orangered;
+  margin: 20px 0;
+}
+
+.mg-container-60{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.mg-container-80{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mg-py-50{
+  padding: 50px 0;
+}
+
+/* menu */
+
+.menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 20pxpx;
+  font-weight: bolder;
 }
