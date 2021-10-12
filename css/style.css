@@ -2,11 +2,25 @@ header, footer{
   height: 90px;
   color: white;
 }
+/* btn */
+.mg-btn{
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+}
 
+.mg-btn:hover{
+  background-color: white;
+}
+
+.mg-btn i {
+  padding-right: 5px;
+}
 /* section */
 
 .mg-section-title{
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .green_bg{
@@ -44,8 +58,8 @@ header, footer{
   margin: 0 auto;
 }
 
-.mg-container-80{
-  width: 80%;
+.mg-container-70{
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -105,6 +119,23 @@ header, footer{
 }
 
 .mg-card-box img{
-width: 350px;
+width: 100%;
 border-radius: 10px;
+}
+
+/* contact */
+
+form{
+  padding-top: 30px;
+}
+
+.mg-custom-border{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0;
+}
+
+.mg-bg-green{
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
 }
