@@ -32,18 +32,6 @@ header, footer{
   font-weight: bolder;
 }
 
-.mg-jumbotrone{
-  margin-top: 90px;
-}
-
-.mg-inner-jumbo{
-  width: 800px;
-  max-width: 80%;
-  border: 2px solid black;
-  margin: 0 auto;
-  height: 300px
-}
-
 .memory_card_box{
   background-color: orangered;
   margin: 20px 0;
@@ -65,9 +53,40 @@ header, footer{
 
 /* menu */
 
-.menu a{
+.mg-menu a{
   color: white;
   text-decoration: none;
   font-size: 20pxpx;
   font-weight: bolder;
+}
+
+.mg-hamb-menu i{
+  color: #888888;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* JUMBOTRON */
+
+.mg-jumbotron{
+  margin-top: 90px;
+}
+
+.mg-inner-jumbo{
+  width: 800px;
+  max-width: 80%;
+  border: 2px solid black;
+  color: white;
+  margin: 0 auto;
+}
+
+
+.mg-profile-avatar{
+  width: 200px;
+}
+
+.mg-jumbo-title, .mg-jumbo-jobs-skills{
+  font-weight: bolder;
+  text-transform: uppercase;
 }
