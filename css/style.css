@@ -33,6 +33,7 @@ header, footer{
 .line{
   width: 40%;
   height: 3px;
+  border-radius: 4px;
 }
 
 .green_bg .line{
@@ -131,6 +132,10 @@ header, footer{
   margin-left: 12px;
 }
 
+.mg-menu ul li a:hover, .mg-menu ul li a:active{
+  color: #1abc9c;
+}
+
 /* JUMBOTRON */
 
 .mg-jumbotron{
@@ -156,6 +161,9 @@ header, footer{
 }
 
 .mg-card-box-overlay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -169,10 +177,6 @@ header, footer{
 .mg-card-box-overlay i{
   color: white;
   font-size: 70px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .mg-card-box:hover > .mg-card-box-overlay{
   visibility: visible;
